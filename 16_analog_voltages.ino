@@ -17,14 +17,11 @@ int analogPin14 = 14;
 int analogPin15 = 15;
 
 void setup() {
-  // put your setup code here, to run once:
   Serial.begin(9600);
-
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-   // read the raw data coming in on analog pin 0:
+  // read the raw data coming in on analog pins:
   int voltage1 = analogRead(analogPin);
   int voltage2 = analogRead(analogPin1);
   int voltage3 = analogRead(analogPin2);
